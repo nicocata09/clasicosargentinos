@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Contactar</title>
+		
+	</head>	
+
+<body>
+		<h1>Contactarse con nosotros</h1>
+		<hr>
+		
+  <form action="/enviar" method="post">
+    <label for="nombre">Nombre:</label><br />
+    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required /><br /><br />
+
+    <label for="email">Correo Electrónico:</label><br />
+    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required /><br /><br />
+
+    <label for="motivo">Motivo de contacto:</label><br />
+    <select id="motivo" name="motivo" required>
+      <option value="" disabled selected>Selecciona una opción</option>
+      <option value="consulta">Consulta</option>
+      <option value="soporte">Soporte técnico</option>
+      <option value="sugerencia">Sugerencia</option>
+      <option value="otro">Otro</option>
+    </select><br /><br />
+
+    <label for="mensaje">Mensaje:</label><br />
+    <textarea
+      id="mensaje"
+      name="mensaje"
+      rows="5"
+      cols="40"
+      placeholder="Escribe tu mensaje aquí"
+      required
+    ></textarea><br /><br />
+
+    <!-- Checkbox -->
+    <input type="checkbox" id="suscribirse" name="suscribirse" />
+    <label for="suscribirse">Quiero suscribirme al boletín</label><br /><br />
+
+    <!-- Radio Buttons -->
+    <p>¿Cómo prefieres que te contactemos?</p>
+    <input type="radio" id="contacto_email" name="contacto_preferencia" value="email" checked />
+    <label for="contacto_email">Correo electrónico</label><br />
+    <input type="radio" id="contacto_telefono" name="contacto_preferencia" value="telefono" />
+    <label for="contacto_telefono">Teléfono</label><br /><br />
+
+    <!-- Botones variados -->
+    <input type="submit" value="Enviar" />
+    <input type="reset" value="Limpiar" />
+    <button type="button" onclick="alert('¡Gracias por visitar el formulario!')">Saludar</button>
+    <button type="submit" formaction="/enviar-rapido">Enviar Rápido</button>
+
+  </form>
+
+
+
+
+</body>
+
+</html>

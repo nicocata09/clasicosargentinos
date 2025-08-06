@@ -1,0 +1,112 @@
+@font-face
+{
+font-family:VCR OSD Mono;
+src:url(fuentes/VCR_OSD_MONO_1.001.ttf);
+}
+
+@font-face
+{
+font-family:Allstar;
+src:url("fuentes/All Star Resort.ttf");
+}
+
+body
+{
+background-image:url("images/pasto.jpg");
+
+}
+
+img	
+{
+ 
+   background-color:white;
+   margin-top:5px;
+   border-style:groove;
+   border-width:3px;
+   border-color:#1db339;
+   
+}
+
+h1
+{
+	text-align:center;
+	border-style:groove;
+	margin-left:15%;
+	margin-right:15%;
+	color:#26b94d;
+	border-color:#26b94d;
+	background-color:#000000;
+	font-family:Allstar;
+	letter-spacing:1.5px;
+	font-size:43px;
+	
+}
+p
+{
+color:white;	
+font-family:VCR OSD Mono;
+background-color:#034d16;
+margin-left:10%;
+margin-right:10%;
+text-align:justify;
+letter-spacing:1px;
+}
+
+h2
+{
+color:#0dff00;	
+font-family:Allstar;
+letter-spacing:2px;
+background-color:#000000;
+font-size:27px;
+text-align:center;
+margin-left:150px;
+margin-right:150px;
+}
+h3
+{
+color:white;	
+font-family:Allstar;
+margin-left:10%;
+margin-right:10%;
+border-bottom-style:solid;
+border-bottom-width:1.5px;
+font-size:24px;
+
+}
+
+.image{
+margin-right:10%;
+margin-left:12.5%;
+}
+
+
+.shady
+{
+    margin-left:30%;
+}
+
+ul
+{
+color:white;	
+font-family:VCR OSD Mono;
+background-color:#034d16;
+margin-left:10%;
+margin-right:10%;
+text-align:justify;
+letter-spacing:1px;
+
+}
+
+table
+{
+	color:#00ffa3;	
+font-family:VCR OSD Mono;
+background-color:black;
+margin-left:20%;
+margin-right:10%;
+text-align:justify;
+letter-spacing:2px;	
+border-style:dashed;
+border-color:#1db339;
+}
